@@ -1,9 +1,7 @@
 
-  <h3 align="center">AWS Managed Microsoft Active Directory</h3>
-</div>
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
+ 
+<!-- AWS Managed Microsoft Active Directory -->
+## AWS Managed Microsoft Active Directory
 In this project I created a AWS Managed Microsoft Active Directory and also created a user in this AD. The user is able to log on to Amazon workspace and access the AWS portal using Microsoft AD credentials. 
 
 
