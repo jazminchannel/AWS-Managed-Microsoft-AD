@@ -2,7 +2,7 @@
  
 <!-- AWS Managed Microsoft Active Directory -->
 ## AWS Managed Microsoft Active Directory
-In this project I created a AWS Managed Microsoft Active Directory and also created a user in this AD. I granted the user permission to log on to the AWS portal using Microsoft AD credentials via Amazon Workspace and Single Sign On. 
+In this project, I created a AWS Managed Microsoft Active Directory and also created a user in this AD. I was able to create a Windows 10 Workspace for the user using Amazon Workspaces  so that the user is able to log into the AWS portal in the same account using their Microsoft AD credentials. I also created a Single Sign On URL for the user to be able to access a different AWS account. 
 
 ## Architecture
 
