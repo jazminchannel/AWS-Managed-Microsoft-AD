@@ -2,11 +2,13 @@
  
 <!-- AWS Managed Microsoft Active Directory -->
 ## AWS Managed Microsoft Active Directory
-In this project, I created a AWS Managed Microsoft Active Directory and also created a user in this AD. I was able to create a Windows 10 Workspace for the user using Amazon Workspaces  so that the user is able to log into the AWS portal in the same account using their Microsoft AD credentials. I also created a Single Sign On URL for the user to be able to access a different AWS account. 
+In this project, I created a AWS Managed Microsoft Active Directory and also created a user in this AD. I was able to create a Windows 10 Workspace for the user using Amazon Workspaces. I gave the user permissions so that they are able to log into the AWS portal in the same account using their Microsoft AD credentials. I also created a Single Sign On URL for the user to be able to access a different AWS account. 
 
 ## Architecture
 
+## Prerequisites
 
+You will need to have an AWS organization with at least two accounts.
 
 ## Set Up
 
@@ -95,6 +97,14 @@ In this project, I created a AWS Managed Microsoft Active Directory and also cre
 
 ## Creating a Single Sign On URL
 
+#### 12. Change Identity Source in the AWS account to Active Directory and assign the user access
+  - Go to IAM Identity Center > Settings > Identity Source > Actions > Change Identity Source 
+  - Choose identity source: Active Directory 
+  - Choose your active directory and confirm change 
+  - Set up AD sync and choose the user 
+  - go to Permission sets tab and create a permission set 
+  - Go to AWS accounts tab and select the account you want to give the user access to and add that user and permission 
+  - User can now log into Workspace , use the AWS Identity Center URL found in Directory Service under Application Management Tab to sign into the other account 
 
 
 <!-- ACKNOWLEDGMENTS -->
