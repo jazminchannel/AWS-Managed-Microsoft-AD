@@ -8,7 +8,7 @@ In this project, I created a AWS Managed Microsoft Active Directory and also cre
 
 
 
-## How To
+## Set Up
 
 #### 1. Create a Directory 
   - Go to the Directory Service 
@@ -66,6 +66,10 @@ In this project, I created a AWS Managed Microsoft Active Directory and also cre
   
   ![ebsapp](https://github.com/jazminchannel/images/blob/main/GetImage%20(12).png)
   - Add the user to this role
+
+## Creating an Amazon Workspace
+
+
 #### 10. Create an Amazon Workspace and assign it to the user
   - Go to Amazon Workspaces Application Manager in the console 
   - Register your directory 
@@ -87,6 +91,11 @@ In this project, I created a AWS Managed Microsoft Active Directory and also cre
   - Go to the AWS Directory Service and find the URL for the AWS Management Console  
   - Paste the URL in Firefox in your workspace
   - Login as user using AD credentials 
+
+
+## Creating a Single Sign On URL
+
+
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
