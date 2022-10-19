@@ -4,8 +4,6 @@
 ## AWS Managed Microsoft Active Directory
 In this project, I created a AWS Managed Microsoft Active Directory and also created a user in this AD. I was able to create a Windows 10 Workspace for the user using Amazon Workspaces. I gave the user permissions so that they are able to log into the AWS portal in the same account using their Microsoft AD credentials. I also created a Single Sign On URL for the user to be able to access a different AWS account. 
 
-## Architecture
-
 ## Prerequisites
 
 You will need to have an AWS organization with at least two accounts.
